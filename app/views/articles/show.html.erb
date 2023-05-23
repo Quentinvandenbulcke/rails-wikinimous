@@ -1,0 +1,6 @@
+<h2>
+  <%= @article.title %>
+  <%= link_to raw('<i class="fa-regular fa-pen-to-square"></i>'), edit_article_path %>
+  <%= link_to raw('<i class="fa-solid fa-trash"></i>'), article_path(@article), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
+</h2>
+<p><%= @article.content %></p>

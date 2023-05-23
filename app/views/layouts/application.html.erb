@@ -8,9 +8,16 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
   </head>
 
+  <div id="banner">
+    <p class="banner-text"><%= link_to "Wikinimous", articles_path %></p>
+    <p class="banner-text"><%= link_to "New Article", new_article_path %></p>
+  </div>
   <body>
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>

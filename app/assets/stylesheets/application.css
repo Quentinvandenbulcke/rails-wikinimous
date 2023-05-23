@@ -13,3 +13,107 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap');
+
+ body {
+  color: #696969;
+  font-family: 'Roboto', sans-serif;
+  font-size:20px;
+  margin:0 ;
+ }
+
+ .container {
+  width: 750px;
+  margin: 20px auto;
+ }
+
+  #banner {
+  height: 30px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid rgba(100,100,100,0.3);
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: baseline;
+  padding: 15px;
+ }
+
+ .banner-text {
+  margin: 0;
+ }
+
+ h2 {
+  color: #3e81bb;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  margin-bottom: 0;
+ }
+
+ h2:hover a {
+  color: #152e45;
+  text-decoration: underline;
+ }
+
+ #banner p a:hover {
+  color: #152e45;
+ }
+
+ .container p {
+  margin-top: 10px;
+  margin-bottom: 25px;
+ }
+
+ a {
+  text-decoration: none;
+  color: #3e81bb;
+ }
+
+ #banner a {
+  color: #696969;
+ }
+
+ .form-style {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .form-style label {
+  margin-bottom: 10px;
+  color: #3e81bb;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+ }
+
+ .form-style input, .form-style textarea {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-bottom: 10px;
+ }
+
+ .form-submit {
+  display: block;
+  background-color: #3e81bb;
+  width: 100%;
+  color: white;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border: none;
+  padding: 20px;
+  border-radius: .25rem;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ }

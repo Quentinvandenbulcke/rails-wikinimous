@@ -1,0 +1,7 @@
+<%= form_with class: "form-style", model: article do |t| %>
+<%= t.label :title %>
+<%= t.text_field :title %>
+<%= t.label :content %>
+<%= t.text_area :content, rows: "10", cols: "50" %>
+<%= t.submit class: "form-submit" %>
+<% end %>
