@@ -88,7 +88,6 @@
 
  .form-style input, .form-style textarea {
   display: block;
-  width: 100%;
   padding: .375rem .75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -101,7 +100,7 @@
   margin-bottom: 10px;
  }
 
- .form-submit {
+ .form-style .form-submit  {
   display: block;
   background-color: #3e81bb;
   width: 100%;
